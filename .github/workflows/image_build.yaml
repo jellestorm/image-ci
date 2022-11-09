@@ -60,7 +60,7 @@ jobs:
         id: image-build
         uses: jellestorm/rootfs@master
         with:
-          arm-profiles-repo: https://github.com/manjaro-libhybris/arm-profiles
+          arm-profiles-repo: https://github.com/jellestorm/arm-profiles
           device: ${{ matrix.device }}
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
