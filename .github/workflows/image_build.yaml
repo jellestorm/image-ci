@@ -37,7 +37,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [volla-yggdrasil]
-        EDITION: [phosh, nemomobile, minimal]
+        EDITION: [plasma-mobile-dev]
         BRANCH: [unstable]
     steps:
       - 
