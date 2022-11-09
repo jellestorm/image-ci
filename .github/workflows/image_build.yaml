@@ -58,7 +58,7 @@ jobs:
           edition: ${{ matrix.edition }}
       - 
         id: image-build
-        uses: manjaro-arm/rootfs@master
+        uses: oberon-manjaro/rootfs@master
         with:
           arm-profiles-repo: https://github.com/manjaro-libhybris/arm-profiles
           device: ${{ matrix.device }}
