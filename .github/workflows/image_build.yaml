@@ -58,7 +58,7 @@ jobs:
           edition: ${{ matrix.edition }}
       - 
         id: image-build
-        uses: erikinkinen/rootfs@master
+        uses: manjaro-arm/rootfs@master
         with:
           arm-profiles-repo: https://github.com/manjaro-libhybris/arm-profiles
           device: ${{ matrix.device }}
